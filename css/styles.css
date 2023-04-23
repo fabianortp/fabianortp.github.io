@@ -11,8 +11,8 @@ li, a, button, body {
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    background-color: black;
-}
+    background-color:black;
+}   
 
 li, a, button {
     font-weight: 500;
@@ -31,7 +31,6 @@ header {
     cursor: pointer;
     margin-right: auto;
     background-color: #edf0f1;
-    
 }
 
 .nav__links {
