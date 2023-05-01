@@ -1,8 +1,17 @@
-let menu = document.querySelector('#menu-icon');
-let nav__links = document.querySelector('.nav__links');
+let hamburger = document.querySelector(".hamburger");
+let navbar = document.querySelector(".navlinks");
 
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    nav__links.classList.toggle('open');
+hamburger.onclick = () => {
+    navbar.classList.toggle("open");
 }
+
+hamburger.addEventListener ("click", () => {
+    hamburger.classList.toggle("active");
+})
+
+
+document.querySelectorAll(".nav-lnk").forEach(n => n.
+addEventListener("click", () =>{
+    hamburger.classList.remove("active");
+}))
 
