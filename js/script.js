@@ -9,14 +9,11 @@ hamburger.addEventListener ("click", () => {
     hamburger.classList.toggle("active");
 })
 
-
 document.querySelectorAll(".nav-lnk").forEach(n => n.
 addEventListener("click", () =>{
     hamburger.classList.remove("active");
     navbar.classList.remove("open");
 }))
-
-
 
 
 document.onclick = function(e){
@@ -25,4 +22,11 @@ document.onclick = function(e){
         hamburger.classList.remove("active");
     }
 }
+
+window.addEventListener("scroll", function() {
+    var navlinks = document.querySelector("navlinks");
+    navlinks.classList.toggle("sticky", window.scrollY > 0);    
+})
+
+
 
