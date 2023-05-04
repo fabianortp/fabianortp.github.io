@@ -197,14 +197,14 @@ nav ul li{
 @media (max-width: 435px){
     .navlinks {
         width: 95%;
-        height: 26%;
+        height: 28%;
     }
 }
 
 @media (max-width: 300px){
     .navlinks {
         width: 95%;
-        height: 34%;
+        height: 36%;
     }
 }
 
@@ -331,7 +331,7 @@ span{
     }
 
     .about{
-        min-height: 140vh;
+        min-height: 145vh;
     }
 
 }
@@ -375,10 +375,8 @@ span{
 }
 
 .portfolio h2{
-    
     font-size: 45px;
     line-height: 26px;
-    
 }
 
 .portfolio .row {
@@ -425,7 +423,7 @@ span{
     }
 
     .portfolio{
-        min-height: 140vh;
+        min-height: 145vh;
     }
 
 }
@@ -452,3 +450,94 @@ span{
     }
 }
     
+/*Contact*/
+
+.contact{
+    width: 100%;
+    background-color:black;
+    min-height: 50vh;
+    display:grid;
+    place-items: center;
+    background-color:#0d0c0ced;
+}
+
+
+.contact h2{
+    font-size: 45px;
+    line-height: 10px;
+}
+
+
+.contact .text p{
+    font-size: 20px;
+    line-height: 10px;
+    text-align: left;
+    grid-gap: 3px 60px;
+    padding-bottom: 25px;
+    top:60%;
+    left: 4%;
+    transform: translateX(-100%);
+}
+
+
+@media (max-width: 1132px){
+    .contact .text p{
+        transform: translateX(-75%);
+    }
+}
+
+@media (max-width: 950px){
+    .contact .text p{
+        transform: translateX(0%);
+    }
+}
+
+/*Footer*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 3px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    bottom: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+}
