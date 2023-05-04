@@ -128,7 +128,7 @@ nav ul li{
     top: 0px;
     flex-direction: column;
     height: 20px;
-    width: 102%;
+    width: 103%;
     text-align:center;
     
     }
@@ -141,11 +141,12 @@ nav ul li{
         flex-direction: column;
         background-color: rgba(169, 23, 0);
         width: 95%;
-        height: 7%;
+        height: 9%;
         text-align: center;
         transition: 0.3s;
         border-radius: 15px;
-        position:fixed;       
+        position:fixed; 
+
     }
 
     .navlinks.active {
@@ -180,10 +181,8 @@ nav ul li{
 @media (max-width: 845px){
 
     .navlinks {
-    
         width: 95%;
-        height: 8%;
-        
+        height: 9%;
     }
 
 }
@@ -191,21 +190,21 @@ nav ul li{
 @media (max-width: 776px){
     .navlinks {
         width: 95%;
-        height: 13%;
+        height: 17%;
     }
 }
 
-@media (max-width: 413px){
+@media (max-width: 435px){
     .navlinks {
         width: 95%;
-        height: 19%;
+        height: 26%;
     }
 }
 
-@media (max-width: 306px){
+@media (max-width: 300px){
     .navlinks {
         width: 95%;
-        height: 27%;
+        height: 34%;
     }
 }
 
@@ -331,6 +330,10 @@ span{
         padding-left: 0;
     }
 
+    .about{
+        min-height: 140vh;
+    }
+
 }
 
 @media (max-width: 768px){
@@ -419,6 +422,10 @@ span{
 @media (max-width: 991px){
     .portfolio .row .right .text{
         padding-left: 0;
+    }
+
+    .portfolio{
+        min-height: 140vh;
     }
 
 }
