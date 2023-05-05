@@ -211,20 +211,18 @@ nav ul li{
 /*Content*/
 
 .content{
-   position: absolute;
-    top:60%;
-    left: 4%;
-    transform: translateY(-50%);
+    padding-top: 350px;
+    padding-left: 5%;
 }
 
 .content h1{
     margin: 20px 0px 20px;
-    font-size: 80px;
+    font-size: 75px;
 }
 
 .content h3{
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .content h4{
@@ -236,51 +234,50 @@ span{
     color:rgba(169, 23, 0);
 }
 
-@media (max-width: 991px){
-    .content{
-         transform: translateY(-45%);
-     }
 
-    .content h1{
-        margin: 15px 0px 15px;
-        font-size: 70px;
-    }
 
-    .content h3{
-        margin-bottom: 40px;
-        font-size: 25px;
-    }
-
-    .content h4{
-        letter-spacing: 2px;
-    font-size: 18px;
-    }
-
-}
-
-@media (max-width: 768px){
+@media (max-width: 700px){
     .content h1{
         margin: 10px 0px 10px;
-        font-size: 65px;
+        font-size: 55px;
     }
 
     .content h3{
         margin-bottom: 35px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .content h4{
-        letter-spacing: 2px;
+    letter-spacing: 2px;
     font-size: 15px;
     }
 }
 
+@media (max-width: 480px){
+    
+    .content h1{
+        margin: 15px 0px 15px;
+        font-size: 40px;
+    }
+
+    .content h3{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .content h4{
+        letter-spacing: 2px;
+    font-size: 14px;
+    
+    }
+
+}
 /*About Section*/
 
 .about{
     width: 100%;
     background-color:#0d0c0ced;
-    min-height: 105vh;
+    min-height: 110vh;
     display: grid;
     place-items: center;
     
@@ -325,7 +322,7 @@ span{
     padding-bottom: 20px;
 }
 
-@media (max-width: 991px){
+@media (max-width: 879px){
     .about .row .right .text{
         padding-left: 0;
     }
@@ -336,7 +333,7 @@ span{
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 810px){
     .about .row {
         width: 90%;
         grid-template-columns: 1fr;
@@ -363,6 +360,15 @@ span{
     }
 }
 
+@media (max-width: 500px){
+    .about{
+        
+        min-height: 130vh;
+        
+        
+    }
+}
+
 /*Portfolio*/
 
 .portfolio{
@@ -374,8 +380,8 @@ span{
     
 }
 
-.portfolio h2{
-    font-size: 45px;
+.portfolio h2:nth-child(1){
+    font-size: 50px;
     line-height: 20px;
 }
 
@@ -412,9 +418,9 @@ span{
 }
 
 .portfolio .row .right .text h2{
-    font-size: 45px;
+    font-size: 50px;
     line-height: 26px;
-    padding-bottom: 23px;
+    padding-bottom: 40px;
 }
 
 .portfolio .row .right .text p{
@@ -429,12 +435,17 @@ span{
     }
 
     .portfolio{
-        min-height: 145vh;
+        min-height: 112vh;
     }
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 750px){
+
+    .portfolio{
+        min-height: 140vh;
+    }
+
     .portfolio .row {
         width: 90%;
         grid-template-columns: 1fr;
@@ -442,11 +453,11 @@ span{
 
     .portfolio .row .left img {
         width: 100%;
-        height: 100%;
+        height: 110%;
         object-fit:contain;
         border-radius: 20px;
         padding-left: 30px;
-        padding-bottom: 20px;        
+        padding-bottom: 60px;        
     }
 
     .portfolio .row .right .text p{
