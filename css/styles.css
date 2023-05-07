@@ -512,35 +512,6 @@ nav ul li{
     }
 }
 
-<<<<<<< HEAD
-@media (max-width: 290px){
-    
-    .portfolio{
-        min-height: 115vh;
-    }
-
-    .portfolio h2:nth-child(1){
-        font-size: 35px;
-        line-height: 20px;
-    }
-
-    .portfolio .row .right .text h2{
-        font-size: 35px;
-        line-height: 24px;
-    
-    }
-    
-    .portfolio .row .right .text p{
-        font-size: 15px;
-        line-height: 24px;
-    }
-    
-    .portfolio .row .right .text p:nth-child(5) a{
-        font-size: 13px;
-        line-height: 24px;
-    }
-
-=======
 @media (max-width: 400px){
 
     #porth2{
@@ -554,7 +525,6 @@ nav ul li{
     }
 
     
->>>>>>> resizelinks
 }
     
 /*Contact*/
@@ -608,10 +578,6 @@ nav ul li{
 
 @media (max-width: 400px){
 
-<<<<<<< HEAD
-    .contact .text p:nth-child(1){
-        padding-left: 10px;
-=======
     .contact h2{
         padding-left: 10px;
         font-size: 30px;
@@ -620,21 +586,15 @@ nav ul li{
     .contact .text p:nth-child(1){
         padding-left: 10px;
         font-size: 17px;
->>>>>>> resizelinks
     }
 
     .contact .text p:nth-child(2){
         padding-left: 10px;
-<<<<<<< HEAD
-=======
         font-size: 17px;
->>>>>>> resizelinks
     }
 
     .contact .text p:nth-child(3){
         padding-left: 10px;
-<<<<<<< HEAD
-=======
         font-size: 17px;
     }
 
@@ -646,7 +606,6 @@ nav ul li{
     .contact .text p:nth-child(4){
         padding-left: 10px;
         font-size: 17px;
->>>>>>> resizelinks
     }
 
     #loc{
