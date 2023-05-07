@@ -1,10 +1,15 @@
 /*Google Font Open Sans*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-li, a, button, body {
+
+
+li, a, body {
     font-family: 'Open Sans', sans-serif;
     color: #edf0f1;
 }
+
+
+
 
 body{
     scroll-behavior: smooth;
@@ -26,7 +31,7 @@ body{
 
 .logo {
     cursor: pointer;
-    background-color: #edf0f1;
+    background-color: rgba(169, 23, 0);
     margin-right: auto;
     position:fixed;
     top: 5px;
@@ -98,7 +103,7 @@ nav ul li{
 
     .logo {
     cursor: pointer;
-    background-color: #edf0f1;
+    background-color: rgba(169, 23, 0);
     position:fixed;
     top: 5px;
     left: 20px;
@@ -218,6 +223,7 @@ nav ul li{
 .content h1{
     margin: 20px 0px 20px;
     font-size: 75px;
+    color: rgba(169, 23, 0);
 }
 
 .content h3{
@@ -230,9 +236,9 @@ nav ul li{
     font-size: 20px;
 }
 
-span{
-    color:rgba(169, 23, 0);
-}
+
+
+
 
 
 
@@ -322,6 +328,15 @@ span{
     padding-bottom: 20px;
 }
 
+.about .right .text h2{
+    color: rgb(203, 30, 3);
+}
+
+#pagelink {
+    color: rgb(203, 30, 3);
+    text-decoration: underline;
+}
+
 @media (max-width: 879px){
     .about .row .right .text{
         padding-left: 0;
@@ -392,6 +407,11 @@ span{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3px 60px;
 }
+
+#porth2 {
+    color:rgba(169, 23, 0);
+}
+
 
 
 .portfolio .row .left img {

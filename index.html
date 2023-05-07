@@ -35,7 +35,10 @@
                                 <a href="#contact" class="nav-lnk">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-lnk">Portuguese</a>
+                                <a href="#pt" class="br">Portuguese</a>
+                            </li>   
+                            <li class="nav-item">
+                                <a href="#eng" class="en">English</a>
                             </li>   
                         </ul>
                         <a href="#top"><img class="logo" src="assets/img/logo.svg" alt="logo"></a>
@@ -50,14 +53,15 @@
 
              <!--Content Section-->
                 <div class="content">
-                            <h4>Hello, my name is <h4>
-                            <h1>Fabiano Pereira <h1>   
-                            <h3>I'm a <span>Developer</span>. It's Nice To Meet You<h3>
+                            <h4>Hello, my name is </h4>
+                            <h1>Fabiano Pereira </h1>   
+                            <h3>I'm a <span id="sp">Developer</span>. It's Nice To Meet You</h3>
                 </div>    
                 
             </div>
-            
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
             <script src="js/script.js"></script>  
+            
 
               
              
@@ -72,16 +76,19 @@
 
                     <div class="right">
                         <div class="text">
-                            <h2>About <span>Me</span></h2>
-                            <p>I am an tech student wich aim to achieve the first job opportunity.
+                            <h2>About Me</h2>
+                            <p id="aboutp1">I am an tech student wich aim to achieve the first job opportunity.
                                 In my projects i'm try to developer my web skils and at the same
                                 time make useful web applications;</p> 
                                 
-                            <p>To build this web portfolio i'm used best practices like responsive design. 
+                            <p id="aboutp2">To build this web portfolio i'm used jQuery,JavaScript,HTML, CSS and best practices like responsive design. 
                                 Check out the complete code at 
-                                my Github account(https://github.com/fabianortp);</p> 
+                                my Github account:</p> 
 
-                            <p>If you have suggestions to improve my projects send my
+                            <p ><a id="pagelink" href="https://github.com/fabianortp/fabianortp.github.io" target="_blank" rel="noopener" rel="no-referrer"> https://github.com/fabianortp/fabianortp.github.io
+                                </a></p>
+
+                            <p id="aboutp3">If you have suggestions to improve my projects send my
                                 a message or a pull request, i will glad to receive.</p> 
                         </div>
                                 
@@ -92,11 +99,11 @@
 
             <!--Portfolio Section-->
             <div class="portfolio" id="portfolio">
-                <h2>Port<span>folio</span></h2>
+                <h2 id="porth2">Portfolio</h2>
                 <div class="row">
 
                     <div class="left">
-                        <a href="https://fabianortp.github.io/enemaps/" target="_blank">
+                        <a href="https://fabianortp.github.io/enemaps/" target="_blank" rel="noopener" rel="no-referrer">
                         <img src="assets/img/enemaps.PNG" title="EneMaps" alt="Profile picture missing">   
                         </a>
                              
@@ -105,12 +112,15 @@
                     <div class="right">
                         <div class="text">
                             <h2>EneMaps</h2>
-                            <p>RoadMap to help brazilian students to achieve a better score in the Brazilian High School National Exam(ENEM) to ingress in university;</p> 
+                            <p id="portp1">RoadMap to help brazilian students to achieve a better score in the Brazilian High School National Exam(ENEM) to ingress in university;</p> 
 
-                            <p>Tech stack used in this project: HTML, SCSS, JavaScript Vanilla;</p> 
+                            <p id="portp2">Tech stack used in this project: HTML, SCSS, JavaScript Vanilla;</p> 
 
-                            <p>Check at this link:<a href="https://fabianortp.github.io/enemaps/"> https://fabianortp.github.io/enemaps/
+                            <p id="portp3">Check at this link:</p>
+                            
+                            <p><a href="https://fabianortp.github.io/enemaps/" target="_blank" rel="noopener" rel="no-referrer"> https://fabianortp.github.io/enemaps/
                             </a></p>
+                            
                         </div>
                                 
                     </div>
@@ -120,20 +130,24 @@
 
             <!--Contact Section-->
             <div class="contact" id="contact">
-                <h2>Con<span>tact</span></h2>
+                <h2>Con<span id="sp">tact</span></h2>
                     <div class="text">
                         <p>I'd like to keep in touch </p>
-                        <p>Contact me at: <span href="mailto:fabianortp1@gmail.com"></span><a href="mailto:fabianortp1@gmail.com">fabianortp1@gmail.com</a></p>
+
+                        <p>Contact me at: </p>
+
+                        <p ><span></span><a href="mailto:fabianortp1@gmail.com">fabianortp1@gmail.com</a></p>
+                        
                         <p>Location: Salvador, Bahia, Brazil </p> 
                     </div>  
             </div>
 
             <!--Footer Section-->
             <footer>
-                <p>Checkout another social medias</p>
+                <p id="footp1">Checkout another social medias</p>
                         <div class="social">
-                            <a href="https://www.linkedin.com/in/fabianortpereira/"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/fabianortp"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/fabianortpereira/" target="_blank" rel="noopener" rel="no-referrer"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/fabianortp" target="_blank" rel="noopener" rel="no-referrer"><i class="fa-brands fa-github"></i></a>
                         </div>  
                         <p class="end">CopyRight By Fabiano Pereira</p>
                 </div>    
