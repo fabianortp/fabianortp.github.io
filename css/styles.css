@@ -488,7 +488,7 @@ nav ul li{
 @media (max-width: 750px){
 
     .portfolio{
-        min-height: 110vh;
+        min-height: 170vh;
     }
 
     .portfolio .row {
@@ -512,7 +512,11 @@ nav ul li{
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
+
+    .portfolio{
+        min-height: 130vh;
+    }
 
     #porth2{
        
@@ -540,6 +544,7 @@ nav ul li{
 
 
 .contact h2{
+    color:rgba(169, 23, 0);
     font-size: 45px;
     line-height: 10px;
 }
