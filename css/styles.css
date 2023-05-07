@@ -332,6 +332,10 @@ nav ul li{
     color: rgb(203, 30, 3);
 }
 
+.about .right .text a{
+    word-wrap: break-word;
+}
+
 #pagelink {
     color: rgb(203, 30, 3);
     text-decoration: underline;
@@ -451,6 +455,7 @@ nav ul li{
     color:rgba(169, 23, 0);
     font-weight: bold;
     text-decoration-line: underline;
+    word-wrap:break-word;
 }
 
 .portfolio .row .right .text{
@@ -483,7 +488,7 @@ nav ul li{
 @media (max-width: 750px){
 
     .portfolio{
-        min-height: 140vh;
+        min-height: 110vh;
     }
 
     .portfolio .row {
@@ -507,6 +512,7 @@ nav ul li{
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 290px){
     
     .portfolio{
@@ -534,6 +540,21 @@ nav ul li{
         line-height: 24px;
     }
 
+=======
+@media (max-width: 400px){
+
+    #porth2{
+       
+        font-size: 35px;
+    }
+
+    #enemtitle{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+
+    
+>>>>>>> resizelinks
 }
     
 /*Contact*/
@@ -569,6 +590,7 @@ nav ul li{
     color:rgba(169, 23, 0);
     font-weight: bold;
     text-decoration-line: underline;
+    word-wrap:break-word;
 }
 
 
@@ -586,16 +608,45 @@ nav ul li{
 
 @media (max-width: 400px){
 
+<<<<<<< HEAD
     .contact .text p:nth-child(1){
         padding-left: 10px;
+=======
+    .contact h2{
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .contact .text p:nth-child(1){
+        padding-left: 10px;
+        font-size: 17px;
+>>>>>>> resizelinks
     }
 
     .contact .text p:nth-child(2){
         padding-left: 10px;
+<<<<<<< HEAD
+=======
+        font-size: 17px;
+>>>>>>> resizelinks
     }
 
     .contact .text p:nth-child(3){
         padding-left: 10px;
+<<<<<<< HEAD
+=======
+        font-size: 17px;
+    }
+
+    .contact .text p:nth-child(3) a{
+        padding-left: 5px;
+        font-size: 17px;
+    }
+
+    .contact .text p:nth-child(4){
+        padding-left: 10px;
+        font-size: 17px;
+>>>>>>> resizelinks
     }
 
     #loc{
