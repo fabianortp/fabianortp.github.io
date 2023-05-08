@@ -9,8 +9,6 @@ li, a, body {
 }
 
 
-
-
 body{
     scroll-behavior: smooth;
 }
@@ -216,7 +214,7 @@ nav ul li{
 /*Content*/
 
 .content{
-    padding-top: 350px;
+    padding-top: 300px;
     padding-left: 5%;
 }
 
@@ -236,10 +234,51 @@ nav ul li{
     font-size: 20px;
 }
 
+.content .row {
+    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px 90px;
+}
+
+.content .row .left p {
+    background-color: rgba(169, 23, 0);
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.content .row .left p:hover {
+    transform: scale(1.2);
+}
 
 
+.content .row .left a {
+    color: white;
+    font-weight: bold;
+}
 
+.content .row .right p {
+    
+    background-color: rgba(169, 23, 0);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
 
+.content .row .right p:hover {
+    transform: scale(1.2);
+}
+
+.content .row .right a {
+    color: white;
+    font-weight: bold;
+}
 
 
 @media (max-width: 700px){
@@ -276,6 +315,46 @@ nav ul li{
     font-size: 14px;
     
     }
+
+}
+
+    @media (max-width: 400px){
+    
+        .content{
+            min-height: 30px;
+        }
+
+        .content .row {
+    
+            display: flex;
+            justify-content: center;
+            
+            flex-wrap: wrap;
+            grid-gap: 5px 12px;
+        }
+        
+        .content .row .left h3 {
+            
+            background-color: rgba(169, 23, 0);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: transform .4s;
+            
+        }
+        
+        .content .row .right h3 {
+            
+            background-color: rgba(169, 23, 0);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: transform .4s;
+        }
 
 }
 /*About Section*/
