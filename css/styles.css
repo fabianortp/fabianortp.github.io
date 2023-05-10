@@ -237,7 +237,7 @@ nav ul li{
 .content .row {
     
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 5px 90px;
 }
 
@@ -245,7 +245,7 @@ nav ul li{
     background-color: rgba(169, 23, 0);
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 5px 15px;
     border-radius: 30px;
     transition: transform .4s;
 }
@@ -341,8 +341,6 @@ nav ul li{
             font-weight: bold;
             padding: 10px 25px;
             border-radius: 30px;
-            transition: transform .4s;
-            
         }
         
         .content .row .right h3 {
@@ -353,7 +351,6 @@ nav ul li{
             font-weight: bold;
             padding: 10px 25px;
             border-radius: 30px;
-            transition: transform .4s;
         }
 
 }
@@ -594,11 +591,11 @@ nav ul li{
 @media (max-width: 420px){
 
     .portfolio{
-        min-height: 130vh;
+        min-height: 155vh;
     }
 
     #porth2{
-       
+        
         font-size: 35px;
     }
 
@@ -607,6 +604,10 @@ nav ul li{
         font-size: 30px;
     }
 
+    .portfolio .row .left a {
+        
+        transform: translateY(100%);     
+    }
     
 }
     

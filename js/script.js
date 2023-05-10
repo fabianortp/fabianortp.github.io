@@ -39,17 +39,17 @@ $(function() {
         //$(".navlinks").removeClass("br");
         //$(".navlinks").addClass("en");
         //Content
-        $(".content h4").text("Hello, my name is");
+        $(".content h4").text("Hello, I'm ");
         $(".content h1").text("Fabiano Pereira");
-        $(".content h3").text("I'm a Developer. It's nice to Meet You");
+        $(".content h3").text("I'm glad you're visiting my portfolio");
         //$(".content").removeClass("br");
         //$(".content").addClass("en");
         //About
         $(".about .text h2").text("About Me");
         $(".about .text h2").css('color', 'rgb(203, 30, 3)');
-        $("#aboutp1").text("I am an tech student wich aim to achieve the first job opportunity. In my projects i'm try to developer my web skils and at the same time make useful web applications");
-        $("#aboutp2").text("To build this web portfolio i'm used jQuery, JavaScript, HTML, CSS and best practices like responsive design.  Check out the complete code at my Github account:");
-        $("#aboutp3").text("If you have suggestions to improve my projects send my a message or a pull request, i will glad to receive.");
+        $("#aboutp1").text("I am a tech student wich aim to achieve the first job opportunity. In my projects i'm try to developer my web skils and at the same time make useful web applications");
+        $("#aboutp2").text("To build this web portfolio I used jQuery, JavaScript, HTML, CSS and best practices like responsive design. Check out the complete code at my Github account:");
+        $("#aboutp3").text("If you have suggestions to improve my projects send my a message or a pull request, I will glad to receive.");
         //$(".about").removeClass("br");
         //$(".about").addClass("en");
         //Portfolio
